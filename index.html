@@ -1,13 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Crocotan</title>
+    <title>Crocotan</title>
+    <style>
+        :root {
+            color-scheme: light;
+            font-family: Georgia, "Times New Roman", serif;
+            background: #f2efe8;
+            color: #1f2a24;
+        }
+
+        body {
+            display: grid;
+            min-height: 100vh;
+            margin: 0;
+            place-items: center;
+            background: radial-gradient(circle at top left, #d9e5d7, transparent 55%), #f2efe8;
+        }
+
+        .entry-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            border: 2px solid #1f2a24;
+            border-radius: 0.35rem;
+            background: #1f2a24;
+            color: #fffdf7;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: background-color 160ms ease, color 160ms ease;
+        }
+
+        .entry-button:hover,
+        .entry-button:focus-visible {
+            background: transparent;
+            color: #1f2a24;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Crocotan</h1>
-    </header>
+    <main>
+        <a class="entry-button" href="uwmc/">Crocotan auf UnlimitedWorld
+    </main>
 </body>
 </html>
